@@ -39,7 +39,10 @@ hr {
     background-image: linear-gradient(to right, transparent, #ffff, transparent); 
     margin-left: 50px;
     margin-right: 50px;
-  }
+ }
+a{
+    text-decoration: none;    
+}
 button{
     display: flex;
     align-items: center;
