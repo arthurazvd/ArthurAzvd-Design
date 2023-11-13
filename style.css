@@ -9,8 +9,12 @@
 }
 
 body{
-    background: linear-gradient(45deg, #212121, #333333);
-    background-size: cover;
+    /*background: linear-gradient(45deg, #212121, #333333);
+    background-size: cover;*/
+    background-image: url("images/background.png");
+    background-repeat: no-repeat, repeat-x;
+    background-position: top right, center;
+    
     height: 100vh;
     width: 100vw;
     font-family: 'Roboto Flex', sans-serif;
