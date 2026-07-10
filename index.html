@@ -4,28 +4,59 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#141414">
+    <meta name="description" content="Links de contato e portfólio de Arthur Azevêdo, Designer Gráfico.">
     <link rel="stylesheet" href="style.css">
     <link rel="icon" href="logo.svg">
 
     <title>Arthur Azevêdo - Designer Gráfico</title>
 </head>
 <body>
-    <header>
-        <img id="logo" src="images/Logo.png" alt="">
-    </header>
-    <section>
-        <hr>
-        <nav>
-            <a href="https://api.whatsapp.com/send?phone=558499623443"><button> <img class="icons" src="images/whatsapp.svg" alt=""> Whatsapp</button></a>
-            <a href="https://www.behance.net/arthurazvdesign"><button> <img class="icons" src="images/behance.svg" alt=""> Behance</button></a>
-            <a href="https://www.linkedin.com/in/arthuazvd"><button> <img class="icons" src="images/linkedin.svg" alt=""> Linkedin</button></a>
-            <a href="https://www.instagram.com/arthurazvd.design/"><button> <img class="icons" src="images/instagram.svg" alt=""> Instagram</button></a>
-            <a href="https://www.youtube.com/channel/UCFoABEJLFrVChMyhfHKK0FQ"><button> <img class="icons" src="images/youtube.png" alt=""> Youtube</button></a>
+    <main class="card">
+        <header class="profile">
+            <div class="avatar-ring">
+                <img id="logo" src="images/Logo.png" alt="Logo de Arthur Azevêdo">
+            </div>
+            <h1 class="name">Arthur Azevêdo</h1>
+            <p class="role">Designer Gráfico</p>
+        </header>
 
+        <div class="divider" role="separator"></div>
+
+        <nav class="links" aria-label="Links de contato">
+            <a href="https://api.whatsapp.com/send?phone=558499623443" target="_blank" rel="noopener">
+                <button type="button">
+                    <span class="icon-badge"><img class="icons" src="images/whatsapp.svg" alt=""></span>
+                    <span class="label">WhatsApp</span>
+                </button>
+            </a>
+            <a href="https://www.behance.net/arthurazvdesign" target="_blank" rel="noopener">
+                <button type="button">
+                    <span class="icon-badge"><img class="icons" src="images/behance.svg" alt=""></span>
+                    <span class="label">Behance</span>
+                </button>
+            </a>
+            <a href="https://www.linkedin.com/in/arthuazvd" target="_blank" rel="noopener">
+                <button type="button">
+                    <span class="icon-badge"><img class="icons" src="images/linkedin.svg" alt=""></span>
+                    <span class="label">LinkedIn</span>
+                </button>
+            </a>
+            <a href="https://www.instagram.com/arthurazvd.design/" target="_blank" rel="noopener">
+                <button type="button">
+                    <span class="icon-badge"><img class="icons" src="images/instagram.svg" alt=""></span>
+                    <span class="label">Instagram</span>
+                </button>
+            </a>
+            <a href="https://www.youtube.com/channel/UCFoABEJLFrVChMyhfHKK0FQ" target="_blank" rel="noopener">
+                <button type="button">
+                    <span class="icon-badge"><img class="icons" src="images/youtube.png" alt=""></span>
+                    <span class="label">YouTube</span>
+                </button>
+            </a>
         </nav>
-        <hr>
+    </main>
 
-    </section>
     <footer>
         <p>Criado por Arthur Azevêdo</p>
     </footer>
